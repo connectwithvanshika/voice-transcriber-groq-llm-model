@@ -49,6 +49,7 @@ Rules:
 - Do not summarize.
 - Do not remove any information.
 - Only organize the conversation by speakers.
+- Once conversation is ended , write "End of Conversation" at the end.
 
 Transcript:
 
