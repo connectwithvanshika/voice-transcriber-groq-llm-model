@@ -12,6 +12,8 @@ The application uses:
 * Llama 3.3 70B for Speaker Identification
 * Python for implementation
 
+Audio Dataset Source : [https://www.kaggle.com/datasets/velvetcrystal/audio-dataset]
+
 The final output converts an audio conversation into a structured format such as:
 
 ```text
