@@ -19,7 +19,7 @@ for file_name in os.listdir(audio_folder):
 
         # Transcribe audio
         with open(file_path, "rb") as audio_file:
-            transcription = client.audio.transcripts.create(
+            transcription = client.audio.transcriptions.create(
                 file=audio_file,
                 model="whisper-large-v3"
 
