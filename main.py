@@ -28,3 +28,33 @@ for file_name in os.listdir(audio_folder):
         print("\nRaw Transcript:\n")
         print(transcript)
 
+
+        # adding prompt for ai 
+
+        prompt = f"""
+
+        This transcript contains a conversation between two people.
+        Your task:
+    1. Identify speaker turns.
+    2. Rewrite the conversation in this format:
+
+    Person 1:
+text
+
+Person 2:
+text
+
+Rules:
+- Keep all original content.
+- Do not summarize.
+- Do not remove any information.
+- Only organize the conversation by speakers.
+
+Transcript:
+
+{transcript}
+
+
+
+ """
+
