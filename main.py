@@ -27,7 +27,7 @@ if uploaded_file:
 
     st.success("File uploaded successfully!")
 
-    if st.button("🚀 Process Audio"):
+    if st.button("Process Audio"):
 
         with st.spinner("Transcribing and identifying speakers..."):
 
@@ -41,7 +41,7 @@ if uploaded_file:
             height=250
         )
 
-        st.subheader("👥 Speaker-wise Conversation")
+        st.subheader("Speaker-wise Conversation")
 
         st.text_area(
             "Conversation",
