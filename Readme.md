@@ -145,3 +145,7 @@ https://www.kaggle.com/datasets/velvetcrystal/audio-dataset
 ## License
 
 This project is intended for educational and learning purposes.
+
+## Author 
+
+Vanshika Yadav 
